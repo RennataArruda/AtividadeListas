@@ -1,0 +1,79 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+
+.menu-listas {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(114, 212, 180, 0.507);
+}
+.menu-listas ul{
+    list-style: none;
+    width: 80%;
+    text-align: center;
+}
+
+.menu-listas ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu-listas ul li a{
+    text-decoration: none;
+    display: inline-block;
+}
+.conteudo-principal{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(114, 212, 180, 0.507);
+}
+
+.text-center{
+    text-align: center;
+}
+
+ol.roman-numerals {
+    list-style-type: none;
+    counter-reset: roman-counter;
+    padding-left: 0;
+}
+
+ol.roman-numerals li {
+    counter-increment: roman-counter;
+    margin-bottom: 5px;
+}
+
+ol.roman-numerals li::before {
+    content: counter(roman-counter, upper-roman) ". ";
+    display: inline-block;
+    width: 2em;
+    text-align: left;
+    margin-right: 5px;
+}
+
+ul.cartoons {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul.synopsis {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul.synopsis li {
+    list-style-type: circle;
+}
+
+ul.dramas {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ol.spoilers {
+    list-style-type: upper-alpha;
+    padding-left: 20px;
+}
